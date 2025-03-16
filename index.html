@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princy Dhanciya - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">PD</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#internships">Internship</a><li></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+<!-- Inside nav-content div, AFTER the logo -->
+<nav class="glass-nav">
+    <div class="nav-content">
+        <div class="logo">
+            <span class="code-symbol">&lt;</span>
+            <span class="code-symbol">/</span>
+            <span class="logo-text">PD</span>
+            <span class="code-symbol">&gt;</span>
+        </div>
+        <!-- Add this button -->
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- Keep existing nav-links -->
+        <ul class="nav-links">
+            ...
+        </ul>
+    </div>
+</nav>
+<section id="home" class="section glassy-section">
+    
+    <!-- Tech Icons Background -->
+    <div class="tech-icons">
+        <span>💻</span> <!-- Laptop -->
+        <span>🌐</span> <!-- Globe -->
+        <span>🚀</span> <!-- Tools -->
+        <span>📱</span> <!-- Mobile -->
+        <span>👨‍💻</span> <!-- Gear -->
+        <span>📊</span> <!-- Analytics -->
+    </div>
+
+    <!-- Home Content -->
+    <div class="profile-container">
+        <div class="profile-glow"></div>
+        <img src="imgg/q.jpg" alt="Princy Dhanciya" class="profile-img">
+    </div>
+    
+    <div class="home-content">
+        <h1 class="glow-text slide-in">Hi, I'm <span class="name-gradient">Princy Dhanciya</span></h1>
+        <p class="subtitle neon-text">Full Stack Developer & UI Enthusiast</p>
+    </div>
+</section>
+    <section id="about" class="section glassy-section">
+        <div class="section-content">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <p class="about-text">
+                    A passionate full-stack developer specializing in creating robust web applications. 
+                    With expertise in both frontend and backend development, I bridge the gap between 
+                    beautiful design and functional technology. My focus is on creating efficient, 
+                    scalable solutions with intuitive user experiences.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section glassy-section">
+        <div class="section-content">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card">
+                    <i class="fab fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fab fa-node"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-database"></i>
+                    <span>MongoDB</span>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-database"></i>
+                    <span>MySQL</span>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fab fa-bootstrap"></i>
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Projects Section -->
+   <!-- Project Card 1 - OnDuty Management System -->
+<!-- Project 1: Student On-Duty System -->
+<section id="projects" class="section glassy-section">
+    <div class="section-content">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1: Student On-Duty System -->
+            <div class="project-card">
+                <div class="glass-card">
+                    <h3 class="project-title gradient-text">
+                        <span class="animated-underline">Student On-Duty</span> & Event Management System
+                    </h3>
+                    <p class="project-tech">
+                        <i class="fas fa-code"></i> PHP | MySQL | HTML | CSS | JavaScript
+                    </p>
+                    <p class="project-desc">
+                        A web app for managing student on-duty requests and events.
+                    </p>
+                    <ul class="project-features">
+                        <li>Automated request submission</li>
+                        <li>Certificate tracking</li>
+                        <li>Admin dashboard</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 2: Recipe Sharing & Ordering Platform -->
+            <div class="project-card">
+                <div class="glass-card">
+                    <h3 class="project-title gradient-text">
+                        <span class="animated-underline">Recipe Sharing</span> & Ordering Platform
+                    </h3>
+                    <p class="project-tech">
+                        <i class="fab fa-react"></i> MERN Stack (React, Node.js, MongoDB, Express)
+                    </p>
+                    <p class="project-desc">
+                        A platform for sharing recipes and ordering food.
+                    </p>
+                    <ul class="project-features">
+                        <li>Recipe posting</li>
+                        <li>Food ordering</li>
+                        <li>User authentication</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 3: Weather Application -->
+            <div class="project-card">
+                <div class="glass-card">
+                    <h3 class="project-title gradient-text">
+                        <span class="animated-underline">Weather</span> Application
+                    </h3>
+                    <p class="project-tech">
+                        <i class="fas fa-cloud"></i> React | OpenWeather API | CSS
+                    </p>
+                    <p class="project-desc">
+                        A real-time weather forecasting app.
+                    </p>
+                    <ul class="project-features">
+                        <li>Real-time updates</li>
+                        <li>Location-based search</li>
+                        <li>Mobile-friendly</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="internships" class="section glassy-section">
+    <div class="section-content">
+        <h2 class="section-title">Internships</h2>
+        <div class="internship-grid">
+            <!-- Internship 1: COIRPLUS -->
+            <div class="internship-card">
+                <div class="glass-card">
+                    <h3 class="internship-title gradient-text">
+                        <span class="animated-underline">COIRPLUS</span> - Software Development Intern
+                    </h3>
+                    <p class="internship-duration">
+                        <i class="fas fa-calendar-alt"></i> 24/06/2024 - 6/07/2024 | Pollachi
+                    </p>
+                    <p class="internship-desc">
+                        Optimized coir product management and quality control software.
+                    </p>
+                    <ul class="internship-features">
+                        <li>Improved software efficiency</li>
+                        <li>Enhanced quality control</li>
+                        <li>Debugged critical issues</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Internship 2: Codsoft -->
+            <div class="internship-card">
+                <div class="glass-card">
+                    <h3 class="internship-title gradient-text">
+                        <span class="animated-underline">Codsoft</span> - Web Development Intern
+                    </h3>
+                    <p class="internship-duration">
+                        <i class="fas fa-calendar-alt"></i> August 2024 | Virtual
+                    </p>
+                    <p class="internship-desc">
+                        Developed responsive web applications using HTML, CSS, and JavaScript.
+                    </p>
+                    <ul class="internship-features">
+                        <li>Built responsive websites</li>
+                        <li>Implemented mobile-first design</li>
+                        <li>Integrated APIs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="section glassy-section">
+    <div class="section-content">
+        <h2 class="section-title">Connect with Me</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:Princydhanciya078@gmail.com">Princydhanciya078@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="
+                https://www.linkedin.com/in/princy-dhanciya-46a58a2b4" target="_blank">LinkedIn Profile</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/Princydhanciya" target="_blank">GitHub Profile</a>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-file-pdf"></i>
+                <a href="
+                https://drive.google.com/file/d/1lcbFGW-xgkR7UVL9v9cY5RkpTizFmqRP/view?usp=drivesdk" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
