@@ -308,6 +308,10 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
+
+        white-space: normal; /* Allow text to wrap */
+        overflow: visible; /* Ensure text is not hidden */
+        word-break: break-word; /* Break long words if necessary */
     color: var(--text-grey);
     margin-bottom: 0.75rem;
 }
@@ -557,6 +561,7 @@ body {
 
     .project-title {
         font-size: 1.3rem;
+        
     }
 }
 
